@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/szeles0619/README-Generator.git"
@@ -15,6 +14,6 @@
   },
   "homepage": "https://github.com/szeles0619/README-Generator#readme",
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "inquirer": "^6.3.1"
   }
 }
