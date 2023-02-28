@@ -26,7 +26,7 @@ const questions = [{
     name: "Usage",
 }, {
     type: "input",
-    message: "What license is being used?",
+    message: "What license is being used? (i.e. MIT, GPL...)",
     name: "License",
     //choices: ['\tMIT', '\tGPL-3-0', '\tapache-2-0', '\tBSD-3-clause', '\tISC', '\t0bsd'],
 }, {
