@@ -12,11 +12,13 @@ const questions = [{
     type: "input",
     message: "Give some details about your project. (i.e. What was your motivation?, What problem does it solve?, Why did you build this project?)",
     name: "Description",
-}, {
-    type: "input",
-    message: "Table of contents",
-    name: "Table of contents",
-}, {
+},
+//  {
+//     type: "input",
+//     message: "Table of contents",
+//     name: "Table of contents",
+// }, 
+{
     type: "input",
     message: "How can I install the application?",
     name: "Installation",
@@ -37,11 +39,13 @@ const questions = [{
     type: "input",
     message: "How can I test the application?",
     name: "Test",
-}, {
-    type: "input",
-    message: "Who shall I contact with for inquires?",
-    name: "Questions",
-}, {
+}, 
+//{
+//     type: "input",
+//     message: "Who shall I contact with for inquires?",
+//     name: "Questions",
+// }, 
+{
     type: "input",
     message: "What is your GitHub username?",
     name: "Username",
