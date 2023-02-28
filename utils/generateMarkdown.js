@@ -12,28 +12,28 @@ ${data.Description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
+* [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
 
 # Installation
-The following necessary dependencies must be installed to run the application properly: ${data.Installation}
+${data.Installation}
 
 # Usage
-In order to use this app, ${data.Usage}
+${data.Usage}
 
 # License
 This project is licensed under the ${data.License} license. 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Contributing
-​Contributors: ${data.Contributing}
+# Contributors
+${data.Contributors}
 
 # Tests
-If you want to test it follow as below: ${data.Tests}
+If you want to test it follow as below: ${data.Test}
 
 # Questions
-If you have any questions about the repository or application do not hesitate to contact ${data.Username} directly at : ${data.Email}.
+If you have any questions about the repository or application do not hesitate to contact ${data.Username} on GitHub or via email at : ${data.Email}.
 `;
 }
 
