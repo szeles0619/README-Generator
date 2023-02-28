@@ -1,5 +1,5 @@
 const fs = require("fs");
-const path = require('path');
+//const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -53,10 +53,10 @@ const questions = [{
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function(err) {
+    fs.writeFile(fileName, data, function (err) {
         console.log(fileName);
         console.log(data);
-        if (err) { 
+        if (err) {
             return console.log(err);
         } else {
             console.log("success");
@@ -66,7 +66,11 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions)
+        .then(function (data) {
+            writeToFile("README.md", generateMarkdown(data));
+            console.log(data);
+        });
 }
 
 // function call to initialize program
